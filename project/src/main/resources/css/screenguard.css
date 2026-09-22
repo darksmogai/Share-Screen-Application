@@ -1,0 +1,219 @@
+/* ScreenGuard - light, professional JavaFX theme.
+   Only plain colours and simple borders: no animations, no gradients. */
+
+.root {
+    -fx-font-family: "Segoe UI", "Segoe UI Variable", "Inter", sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #F6F7F9;
+    -fx-text-fill: #17243A;
+}
+
+.header {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: transparent transparent #E4E7EC transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 18 20 16 20;
+}
+
+.title-label {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0F1B2D;
+}
+
+.subtitle-label {
+    -fx-text-fill: #5B6B84;
+    -fx-font-size: 12px;
+}
+
+.hint-label {
+    -fx-text-fill: #6B5B00;
+    -fx-background-color: #FFF8E1;
+    -fx-border-color: #F0E0A8;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 12px;
+}
+
+.card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8;
+    -fx-border-color: #E4E7EC;
+    -fx-border-radius: 8;
+    -fx-padding: 14 16 14 16;
+}
+
+.section-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0F1B2D;
+}
+
+.muted-label {
+    -fx-text-fill: #6B7A90;
+    -fx-font-size: 12px;
+}
+
+.selection-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #0F1B2D;
+}
+
+.mono-label {
+    -fx-font-family: "Consolas", "Cascadia Mono", monospace;
+    -fx-font-size: 12px;
+    -fx-text-fill: #44526A;
+}
+
+.button {
+    -fx-background-radius: 6;
+    -fx-padding: 7 14 7 14;
+    -fx-cursor: hand;
+}
+
+.button-primary {
+    -fx-background-color: #1F6FEB;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.button-primary:hover {
+    -fx-background-color: #1A5FCC;
+}
+
+.button-primary:disabled {
+    -fx-background-color: #C3D4F0;
+    -fx-text-fill: #F4F7FC;
+}
+
+.button-secondary {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #1F3355;
+    -fx-border-color: #C9D2E0;
+    -fx-border-radius: 6;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #F1F4F9;
+}
+
+.button-secondary:disabled {
+    -fx-text-fill: #9AA7BA;
+    -fx-border-color: #E1E6EE;
+}
+
+.button-danger {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #B42318;
+    -fx-border-color: #E9BFB9;
+    -fx-border-radius: 6;
+}
+
+.button-danger:hover {
+    -fx-background-color: #FDF3F2;
+}
+
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E4E7EC;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #F1F4F9;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent #E4E7EC transparent transparent;
+    -fx-size: 32px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #44526A;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #E3EEFF;
+    -fx-text-fill: #0F1B2D;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #FBFCFE;
+}
+
+.text-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #C9D2E0;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 6 10 6 10;
+}
+
+.status-dot {
+    -fx-stroke: transparent;
+}
+
+.status-dot-ok {
+    -fx-fill: #1F9D55;
+}
+
+.status-dot-off {
+    -fx-fill: #B4BECC;
+}
+
+.status-dot-warn {
+    -fx-fill: #D99A00;
+}
+
+.status-dot-error {
+    -fx-fill: #D92D20;
+}
+
+.status-text {
+    -fx-font-weight: bold;
+    -fx-text-fill: #17243A;
+}
+
+.message-label {
+    -fx-text-fill: #44526A;
+    -fx-font-size: 12px;
+}
+
+.message-label-error {
+    -fx-text-fill: #B42318;
+    -fx-font-size: 12px;
+}
+
+.message-label-ok {
+    -fx-text-fill: #17643A;
+    -fx-font-size: 12px;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #F1F4F9;
+    -fx-border-color: #E4E7EC;
+    -fx-font-weight: bold;
+}
+
+.titled-pane > .title > .text {
+    -fx-fill: #17243A;
+}
+
+.titled-pane > *.content {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E4E7EC;
+}
+
+.check-box {
+    -fx-text-fill: #17243A;
+}
+
+.separator .line {
+    -fx-border-color: #E4E7EC;
+}

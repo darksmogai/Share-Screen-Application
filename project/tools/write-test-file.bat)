@@ -1,0 +1,18 @@
+        List Windows windows = enumerator.enumerateVisibleTopLevelWindows(
+        List Windows windows = enumerator.enumerateVisibleTopLevelWindows(
+        enumerator = new WindowEnumerator(
+        manager = new WindowsWindowManager(enumerator
+        enumerator = new WindowEnumerator(
+        manager = new WindowsWindowManager(enumerator
+        enumerator = new WindowEnumerator(
+        manager = new WindowsWindowManager(enumerator
+windows = enumerator.enumerateVisibleTopLevelWindows(
+List Windows windows = enumerator.enumerateVisibleTopLevelWindows(
+    private static void setUp(
+        if java.awt.GraphicsEnvironment.isHeadless(
+        enumerator = new WindowEnumerator(
+        manager = new WindowsWindowManager(enumerator
+        target = TestTargetWindow.create(WINDOW_TITLE
+        enumerator = new WindowEnumerator(
+        manager = new WindowsWindowManager(enumerator
+        target = TestTargetWindow.create(WINDOW_TITLE

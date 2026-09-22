@@ -1,0 +1,42 @@
+# Maven / Java build output
+target/
+*/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# .NET Edge WebView2 helper build output
+edge-helper/bin/
+edge-helper/obj/
+
+# Runtime logs, crash dumps and generated diagnostics
+*.log
+hs_err_pid*.log
+replay_pid*.log
+build*.txt
+compile*.txt
+package*.txt
+probe*.txt
+selftest*.txt
+*-exit.txt
+gfx.txt
+
+# IDE metadata
+.metadata/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local application data
+*.local
+*.tmp
+*.bak

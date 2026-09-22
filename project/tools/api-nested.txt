@@ -1,0 +1,117 @@
+==== BaseTSD$LONG_PTR ==== 
+Compiled from "BaseTSD.java"
+public class com.sun.jna.platform.win32.BaseTSD$LONG_PTR extends com.sun.jna.IntegerType {
+  public com.sun.jna.platform.win32.BaseTSD$LONG_PTR();
+  public com.sun.jna.platform.win32.BaseTSD$LONG_PTR(long);
+  public com.sun.jna.Pointer toPointer();
+}
+==== BaseTSD$ULONG_PTR ==== 
+Compiled from "BaseTSD.java"
+public class com.sun.jna.platform.win32.BaseTSD$ULONG_PTR extends com.sun.jna.IntegerType {
+  public com.sun.jna.platform.win32.BaseTSD$ULONG_PTR();
+  public com.sun.jna.platform.win32.BaseTSD$ULONG_PTR(long);
+  public com.sun.jna.Pointer toPointer();
+}
+==== BaseTSD$SIZE_T ==== 
+Compiled from "BaseTSD.java"
+public class com.sun.jna.platform.win32.BaseTSD$SIZE_T extends com.sun.jna.platform.win32.BaseTSD$ULONG_PTR {
+  public com.sun.jna.platform.win32.BaseTSD$SIZE_T();
+  public com.sun.jna.platform.win32.BaseTSD$SIZE_T(long);
+}
+==== WinDef$HWND ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$HWND extends com.sun.jna.platform.win32.WinNT$HANDLE {
+  public com.sun.jna.platform.win32.WinDef$HWND();
+  public com.sun.jna.platform.win32.WinDef$HWND(com.sun.jna.Pointer);
+}
+==== WinDef$LPARAM ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$LPARAM extends com.sun.jna.platform.win32.BaseTSD$LONG_PTR {
+  public com.sun.jna.platform.win32.WinDef$LPARAM();
+  public com.sun.jna.platform.win32.WinDef$LPARAM(long);
+}
+==== WinDef$WPARAM ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$WPARAM extends com.sun.jna.platform.win32.WinDef$UINT_PTR {
+  public com.sun.jna.platform.win32.WinDef$WPARAM();
+  public com.sun.jna.platform.win32.WinDef$WPARAM(long);
+}
+==== WinDef$DWORD ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$DWORD extends com.sun.jna.IntegerType implements java.lang.Comparable<com.sun.jna.platform.win32.WinDef$DWORD> {
+  public static final int SIZE;
+  public com.sun.jna.platform.win32.WinDef$DWORD();
+  public com.sun.jna.platform.win32.WinDef$DWORD(long);
+  public com.sun.jna.platform.win32.WinDef$WORD getLow();
+  public com.sun.jna.platform.win32.WinDef$WORD getHigh();
+  public int compareTo(com.sun.jna.platform.win32.WinDef$DWORD);
+  public int compareTo(java.lang.Object);
+}
+==== WinDef$DWORDByReference ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$DWORDByReference extends com.sun.jna.ptr.ByReference {
+  public com.sun.jna.platform.win32.WinDef$DWORDByReference();
+  public com.sun.jna.platform.win32.WinDef$DWORDByReference(com.sun.jna.platform.win32.WinDef$DWORD);
+  public void setValue(com.sun.jna.platform.win32.WinDef$DWORD);
+  public com.sun.jna.platform.win32.WinDef$DWORD getValue();
+}
+==== WinDef$BOOL ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$BOOL extends com.sun.jna.IntegerType implements java.lang.Comparable<com.sun.jna.platform.win32.WinDef$BOOL> {
+  public static final int SIZE;
+  static final boolean $assertionsDisabled;
+  public com.sun.jna.platform.win32.WinDef$BOOL();
+  public com.sun.jna.platform.win32.WinDef$BOOL(boolean);
+  public com.sun.jna.platform.win32.WinDef$BOOL(long);
+  public boolean booleanValue();
+  public java.lang.String toString();
+  public int compareTo(com.sun.jna.platform.win32.WinDef$BOOL);
+  public static int compare(com.sun.jna.platform.win32.WinDef$BOOL, com.sun.jna.platform.win32.WinDef$BOOL);
+  public static int compare(com.sun.jna.platform.win32.WinDef$BOOL, boolean);
+  public static int compare(boolean, boolean);
+  public int compareTo(java.lang.Object);
+  static {};
+}
+==== WinDef$HMODULE ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$HMODULE extends com.sun.jna.platform.win32.WinDef$HINSTANCE {
+  public com.sun.jna.platform.win32.WinDef$HMODULE();
+}
+==== WinDef$UINT ==== 
+Compiled from "WinDef.java"
+public class com.sun.jna.platform.win32.WinDef$UINT extends com.sun.jna.IntegerType implements java.lang.Comparable<com.sun.jna.platform.win32.WinDef$UINT> {
+  public static final int SIZE;
+  public com.sun.jna.platform.win32.WinDef$UINT();
+  public com.sun.jna.platform.win32.WinDef$UINT(long);
+  public int compareTo(com.sun.jna.platform.win32.WinDef$UINT);
+  public int compareTo(java.lang.Object);
+}
+==== WinNT$HANDLE ==== 
+Compiled from "WinNT.java"
+public class com.sun.jna.platform.win32.WinNT$HANDLE extends com.sun.jna.PointerType {
+  public com.sun.jna.platform.win32.WinNT$HANDLE();
+  public com.sun.jna.platform.win32.WinNT$HANDLE(com.sun.jna.Pointer);
+  public java.lang.Object fromNative(java.lang.Object, com.sun.jna.FromNativeContext);
+  public void setPointer(com.sun.jna.Pointer);
+  public java.lang.String toString();
+}
+==== WinUser$WNDENUMPROC ==== 
+Compiled from "WinUser.java"
+public interface com.sun.jna.platform.win32.WinUser$WNDENUMPROC extends com.sun.jna.win32.StdCallLibrary$StdCallCallback {
+  public abstract boolean callback(com.sun.jna.platform.win32.WinDef$HWND, com.sun.jna.Pointer);
+}
+==== WinReg$HKEY ==== 
+Compiled from "WinReg.java"
+public class com.sun.jna.platform.win32.WinReg$HKEY extends com.sun.jna.platform.win32.WinNT$HANDLE {
+  public com.sun.jna.platform.win32.WinReg$HKEY();
+  public com.sun.jna.platform.win32.WinReg$HKEY(com.sun.jna.Pointer);
+  public com.sun.jna.platform.win32.WinReg$HKEY(int);
+}
+==== WinReg$HKEYByReference ==== 
+Compiled from "WinReg.java"
+public class com.sun.jna.platform.win32.WinReg$HKEYByReference extends com.sun.jna.ptr.ByReference {
+  public com.sun.jna.platform.win32.WinReg$HKEYByReference();
+  public com.sun.jna.platform.win32.WinReg$HKEYByReference(com.sun.jna.platform.win32.WinReg$HKEY);
+  public void setValue(com.sun.jna.platform.win32.WinReg$HKEY);
+  public com.sun.jna.platform.win32.WinReg$HKEY getValue();
+}

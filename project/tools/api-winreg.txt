@@ -1,0 +1,14 @@
+Compiled from "WinReg.java"
+public interface com.sun.jna.platform.win32.WinReg {
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_CLASSES_ROOT;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_CURRENT_USER;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_LOCAL_MACHINE;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_USERS;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_PERFORMANCE_DATA;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_PERFORMANCE_TEXT;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_PERFORMANCE_NLSTEXT;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_CURRENT_CONFIG;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_DYN_DATA;
+  public static final com.sun.jna.platform.win32.WinReg$HKEY HKEY_CURRENT_USER_LOCAL_SETTINGS;
+  static {};
+}
